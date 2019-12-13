@@ -1,7 +1,7 @@
 # LinkedIn-AutoConnect
 Automatically send connection requests to people in a given LinkedIn search query. This means that you can target any search query you like. Personally, I used it to connect to colleagues that I was 2nd connections with. 
 
-###System Requirements:
+### System Requirements:
 * 🤟 (tested on Windows and Mac)
 * 🐍 download Python 3 - I recommend the Anaconda distribution but you don't need it for this 
     * [Anaconda for Mac](https://repo.anaconda.com/archive/Anaconda3-2019.10-MacOSX-x86_64.pkg)
@@ -21,7 +21,7 @@ The main reason they're separate is because if your login is flagged as suspicio
 **(linux/unix only):**
 if you want Auth and AutoConnect to run together, just paste both lines in a .sh file and run from the command line: ```sh file.sh```
 
-##Possible Future Additions
+### Possible Future Additions
 (feel free to make a pull/push request)
 
 * timing for every hour, when LinkedIn says you're making too many connections, so you don't have to rerun it
