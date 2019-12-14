@@ -18,6 +18,8 @@ For running it without prompts:
 
 I recommend running the Jupyter Notebook file (.ipynb) becuase you'll be able to authenticate separately and just keep running the AutoConnect part. You can just hardcode in your username, password and search query link.
 
+Also, it should crash when LinkedIn blocks you from making connections (temporarily). This goes away in 5-10 minutes, and is why I recommend running in a Jupyter Notebook so you don't have to open a new ChromeDriver and re-auth.
+
 ### Possible Future Additions
 (feel free to make a pull/merge request)
 
