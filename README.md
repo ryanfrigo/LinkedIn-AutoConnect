@@ -11,15 +11,12 @@ Automatically send connection requests to people in a given LinkedIn search quer
     * [ChromeDriver binary](https://chromedriver.storage.googleapis.com/index.html?path=79.0.3945.36/)
     * my Python bin directory: ```Users/rfrigo/anaconda3/bin```
 
-```Auth.py``` will handle login to LinkedIn. Alternatively, you can just run ```AutoConnect.py``` if you're already logged in. Just paste in your search query. ;)
-The main reason they're separate is because if your login is flagged as suspicious, LinkedIn will send you a code to verify by email, so that way you can run ```Auth.py```, input the code, and then run ```AutoConnect.py```. ```Auth.py``` is pretty pointless if you don't hardcode your email and password or use command line args, shown below.
+First time you run it, your login may be flagged as suspicious, LinkedIn will send you a code to verify by email, next time it should work fine.
 
-```python Auth.py --noprompt mylinkedinemail@domain.com mylinkedinpassword123```
+For running it without prompts:
+```python AutoConnect.py --noprompt mylinkedinemail@domain.com mylinkedinpassword123 linked.com/yoursearchquery```
 
-```python AutoConnect.py --noprompt linked.com/yoursearchquery```
-
-**(linux/unix only):**
-if you want Auth and AutoConnect to run together, just paste both lines in a .sh file and run from the command line: ```sh file.sh```
+I recommend running the Jupyter Notebook file (.ipynb) becuase you'll be able to authenticate separately and just keep running the AutoConnect part. You can just hardcode in your username, password and search query link.
 
 ### Possible Future Additions
 (feel free to make a pull/merge request)
