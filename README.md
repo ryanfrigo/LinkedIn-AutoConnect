@@ -22,7 +22,7 @@ The main reason they're separate is because if your login is flagged as suspicio
 if you want Auth and AutoConnect to run together, just paste both lines in a .sh file and run from the command line: ```sh file.sh```
 
 ### Possible Future Additions
-(feel free to make a pull/push request)
+(feel free to make a pull/merge request)
 
 * timing for every hour, when LinkedIn says you're making too many connections, so you don't have to rerun it
 * saving current link when it finishes running so it can leave off where it started instead of having to go through hella pages of connections you already sent
