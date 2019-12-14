@@ -50,7 +50,7 @@ for i in range(0, 40):
                 time.sleep(uniform(1, 3))
             driver.implicitly_wait(uniform(1, 3))
             try:
-                # cick send now in connection pain
+                # cick send now in connection pane
                 element = driver.find_element_by_xpath("//button[contains(string(.), 'Send now')]")
 
                 action = webdriver.common.action_chains.ActionChains(driver)
